@@ -707,3 +707,6 @@ def astype(
     dtype: DTypeLike,
     copy: bool = ...,
 ) -> NDArray[Any]: ...
+
+def mycalc(a,b):
+    return a+b
